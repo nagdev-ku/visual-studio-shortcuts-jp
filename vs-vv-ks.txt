@@ -1,4 +1,13 @@
-<KMS><Sco><English><Japanese>==<INOVTC><SsU><_FEVNCzRBuTSWHADPO?>
+<KMS><Sco><English><Japanese>=<shortcut>=<INOVTC><SsU>
+<KeyboardMapScheme>
+<Scope>
+<English>
+<Japanese>一部英語表記だが<English>と異なるものもある
+=VisualStudio側で機能
+<shortcut>
+=VsVim側で機能
+<INOVTC>InsertMode,NormalMode,operatorPendingMode,VisualMode,TextObject,ComandLineEditing
+<SsU>Suppprted,some variations of the command are not supported,Unsupported
 
 KeyboardMapScheme
 Scope
@@ -21,16 +30,16 @@ TextObjectT TextObjectB
 ComandLineEditingT ComandLineEditingB
 EXCommandT EXCommandB
 
-\ ()+{|?
-Shift-d,"0p Shift-c,Ctrl-r,0
+正規表現で\が必要な文字()+{|?
+行の途中から置換Shift-d,"0pまたはShift-c,Ctrl-r,0
 JUMP '' Ctrl-I Ctrl-O
-置換 .,$s/kokowo/korenikaeru/gc
-置換 :/koregaarumozinogyou/,$s/kokowo/korenikaeru/gc
+置換 .,$s/ここを/これに換える/gc
+置換 :/これがある行から/,$s/ここを/これに換える/gc
 ファイルのディレクトリに移動　:cd %:h
 %はカレントファイルのパス
 :hは該当パスの親ディレクトリ
 
-<0Def><Glo>Edit.Undo<編集.元に戻す> Ctrl-Zは削除
+<0Def><Glo>Edit.Undo<編集.元に戻す> Ctrl-Zは削除がおすすめ
 
 <KeyboardMapScheme>
 <0Def> 既定
