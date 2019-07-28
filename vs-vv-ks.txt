@@ -1,4 +1,4 @@
-rKMS><Sco><English><Japanese>=<shortcut>=<INOVTC><SsU>
+<KMS><Sco><English><Japanese>=<shortcut>=<INOVTC><SsU>
 <KeyboardMapScheme>
 <Scope>
 <English>
