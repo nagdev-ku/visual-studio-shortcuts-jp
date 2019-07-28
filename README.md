@@ -1,0 +1,1 @@
+# visual-studio-shortcuts-jp
