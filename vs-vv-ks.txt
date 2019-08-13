@@ -920,7 +920,7 @@ JUMP '' Ctrl-I Ctrl-O
 <____><TxE>                                                                                                                                                                             <                                =<___V__> <on > <S>選択範囲の行をshiftwith分だけ左へshift
 
 <____><TxE>                                                                                                                                                                             =,=                              =<_N____> <on > <S>N行分のindentを調整する
-<____><TxE>                                                                                                                                                                             =                                 <___V__> <on > <U>equalprgで設定されている外部programで選択範囲の行をfilterする。未設定
+<____><TxE>                                                                                                                                                                             =                                =<___V__> <on > <S>equalprgで設定されている外部programで選択範囲の行をfilterする。indentを調整
 
 <____><TxE>                                                                                                                                                                             >,<motion>                       =<_N____> <on > <S>Nmoveの行をshiftwith<sw>分だけ右へshift
 <____><TxE>                                                                                                                                                                             >,>                              =<_N____> <on > <S>N行をshiftwith<sw>分だけ右へshift
@@ -1351,7 +1351,7 @@ JUMP '' Ctrl-I Ctrl-O
 <____><TxE>                                                                                                                                                                             <"x>,g,p                         =<_N____> <on > <S>N回cursorの後にregisterxのtextを挿入、cursorは挿入textの直後へ移動
 <____><TxE>                                                                                                                                                                             g,Q                               <_N____> <on > <U>ExModeを開始する。未設定
 <____><TxE>                                                                                                                                                                             g,q,<motion>                     =<_N____> <on > <S>Nmovetextを整形する
-<____><TxE>                                                                                                                                                                             g,q,                             =<___V__> <on > <S>選択範囲のlinesを整形
+<____><TxE>                                                                                                                                                                             g,q                              =<___V__> <on > <S>選択範囲のlinesを整形
 <____><TxE>                                                                                                                                                                             g,q,q                            =<_N____> <on > <S>現在行を整形する。countを指定するとその行数だけ整形される
 <____><TxE>                                                                                                                                                                             g,R                               <_N____> <on > <U>仮想ReplaceMode開始。未設定
 <____><TxE>                                                                                                                                                                             g,r,<char>                        <_N____> <on > <U>N文字をcharで仮想上書きする。未設定
@@ -2571,7 +2571,7 @@ CTRL-]                  <___V__> <on > <S>選択した文字のtagへjump
 !,<filter>              <___V__> <on > <S>選択範囲の行を<filter>Commandでfilterする
 :                       <___V__> <on > <S>選択範囲の行を対象範囲としてcommand-lineのCommandを適用する
 <                       <___V__> <on > <S>選択範囲の行をshiftwith分だけ左へshift
-=                       <___V__> <on > <U>equalprgで設定されている外部programで選択範囲の行をfilterする。未設定
+=                       <___V__> <on > <S>equalprgで設定されている外部programで選択範囲の行をfilterする。indentを調整
 >                       <___V__> <on > <S>選択範囲の行をshiftwith分だけ左へshift
 A                       <___V__> <on > <S>blockwiseVisualModeの時、選択範囲の全ての行末に同じtextを追加する
 C                       <___V__> <on > <S>選択範囲のlinesを削除して挿入開始
