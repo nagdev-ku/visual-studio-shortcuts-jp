@@ -1,0 +1,47 @@
+
+<VisualStudio>=<shortcut>=<VsVim>
+
+F1 <VS> Help
+C__
+CS_
+CSA
+C_A
+_S_
+_SA
+__A
+
+Esc <Vi><INOVTC>
+C__
+CS_
+CSA
+C_A
+_S_
+_SA
+__A
+
+0 <Vi><INOVTC>
+C__
+CS_
+CSA
+C_A
+_S_
+_SA
+__A
+
+! <Vi><INOVTC>
+C__
+CS_
+CSA
+C_A
+_S_
+_SA
+__A
+
+A <Vi><INOVTC>
+C__
+CS_
+CSA
+C_A
+_S_
+_SA
+__A
