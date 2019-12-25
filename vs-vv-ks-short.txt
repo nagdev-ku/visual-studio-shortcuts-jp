@@ -37,7 +37,7 @@ _S_
 _SA
 __A
 
-A <Vi><INOVTC>
+A__ <Vi><INOVTC>
 C__
 CS_
 CSA
