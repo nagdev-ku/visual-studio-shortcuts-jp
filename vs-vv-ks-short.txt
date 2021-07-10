@@ -1,7 +1,139 @@
 
 <VisualStudio>=<shortcut>=<VsVim>
 
-F1 <VS> Help
+Fnkey Spkey Numkey Sykey
+Akey Bkey Ckey Dkey
+Ekey Fkey Gkey Hkey
+Ikey Jkey Kkey Lkey
+Mkey Nkey Okey Pkey
+Qkey Rkey Skey Tkey
+Ukey Vkey Wkey Xkey
+Ykey Zkey
+
+<Fnkey>
+F1
+___ <VS>LanguageReference Help
+C__ <VS>VisualStudioDocument Help
+CS_
+CSA
+C_An<VS>ヘルプコンテンツの追加と削除
+_S_ <VS>VisualStudioEditor Help
+_SA
+__A
+
+F2
+___n<VS>ラベルの編集
+C__ <VS>WindowNavigationBarに移動
+CS_n<VS>デバッグ停止
+CSA
+C_A <VS>診断ツールの表示
+_S_
+_SAn<VS>パフォーマンス分析の停止
+__A <VS>パフォーマンスプロファイラー
+
+F3
+___ <VS>次を検索
+C__ <VS>検索範囲内で次を検索
+CS_ <VS>検索範囲内で前を検索
+CSA
+C_A <VS>ブランチを表示
+_S_ <VS>前を検索
+_SA
+__A <VS><,S>検索の中止
+
+F4
+___ <VS>プロパティウィンドウの表示
+C__ <VS>ドキュメントウィンドウを閉じる
+CS_
+CSA
+C_A <VS>リポジトリの表示
+_S_n<VS>プロパティページの表示
+_SA
+__A <VS>終了
+
+F5
+___ <VS>デバッグの開始
+C__ <VS>デバッグなしで開始
+CS_n<VS>デバッグ再起動
+CSA
+C_An<VS>コードウィンドウ実行
+_S_
+_SA
+__A
+
+F6
+___ <VS>次の分割ペイン
+C__ <VS>次のドキュメントウィンドウ
+CS_ <VS>前のドキュメントウィンドウ
+CSA
+C_A
+_S_ <VS>前の分割ペイン
+_SA <VS>前のウィンドウ
+__A <VS>次のウィンドウ
+
+F7
+___ <VS>コードの表示
+C__ <VS>
+CS_n<VS>タブの切り替え
+CSAn<VS>コード分析を実行
+C_A <VS>チームエクスプローラー保留中の表示
+_S_n<VS>デザイナーの表示
+_SA <VS>前のツールウィンドウナビゲーション
+__A <VS>次のツールウィンドウナビゲーション
+
+F8
+___n<VS>次の場所へ移動
+C__
+CS_n<VS>分割表示モードの切り替え
+CSA
+C_A
+_S_n<VS>前の場所へ移動
+_SA
+__A
+
+F9
+___ <VS>ブレークポイントの設定解除
+C__ <VS>ブレークポイントの有効化
+CS_ <VS>全てのブレークポイントの削除
+CSAn<VS>
+C_An<VS>公開
+_S_n<VS>クイックウォッチ
+_SAn<VS>
+__An<VS><,A>逆アセンブリを表示n<VS><,C>ブレークポイント条件n<VS><,D>削除n<VS><,L>ラベルの編集n<VS><,S>ソースコードへ移動
+
+F10
+___n<VS>ステップオーバー
+C__n<VS>カーソル行の前まで実行
+CS_n<VS>次のステートメントの設定
+CSA
+C_An<VS>現在のプロセスにステップオーバーする
+_S_
+_SAn<VS>スマートタグの表示
+__An<VS>コード変更を適用
+
+F11
+___n<VS>ステップイン
+C__n<VS>逆アセンブリの切り替え
+CS_
+CSAn<VS>現在のプロセスにステップアウトする
+C_An<VS>現在のプロセスにステップインする
+_S_n<VS>ステップアウト
+_SA
+__An<VS>ソリューションでコード分析を実行
+
+F12
+___n<VS>定義へ移動
+C__n<VS>宣言へ移動
+CS_n<VS>次のエラー
+CSAn<VS><,2回>ガベージコレクションを強制		
+C_An<VS>シンボルの検索結果。プロセスにアタッチが起動
+_S_n<VS>すべての参照を検索
+_SAn<VS>クイックシンボル検索
+__An<VS>定義をここに表示。プロセスにアタッチが起動
+
+<Spkey>
+Esc
+___ <Vi><INOV_C>未実行でNormalModeへ
 C__
 CS_
 CSA
@@ -10,7 +142,24 @@ _S_
 _SA
 __A
 
-Esc <Vi><INOVTC>
+<Numkey>
+
+0
+___ ,Ctrl-D <Vi><I_____>現在のlineの全indentを削除する
+___ <Vi><_N_V__>cursorを行頭文字へ移動
+C__ ,B ,Ctrl-B <VS>コマンドビルドに移動
+C__ ,C ,Ctrl-C <VS>接続に移動
+CS_
+CSA
+C_A
+_S_
+_SA
+__A
+
+<Sykey>
+!
+___ <Vi><_N_V__>filter
+___ ,!<Vi><_N____>Nlinesをfilter
 C__
 CS_
 CSA
@@ -19,29 +168,20 @@ _S_
 _SA
 __A
 
-0 <Vi><INOVTC>
-C__
-CS_
-CSA
-C_A
-_S_
-_SA
-__A
+<Akey>
+a
+___ <Vi><_N____>cursorの直後にN回textを追加する
 
-! <Vi><INOVTC>
-C__
-CS_
+A
+___ <Vi><_N_V__>行末にN回textを追加する
+C__ <Vi><I_____>直前に挿入したtextを挿入する
+C__ <Vi><_N_V__>numberにNを加える
+CS_ <VS>新しい項目の追加
 CSA
-C_A
+C_A <VS>コマンドウィンドウの表示
 _S_
-_SA
+_SA <VS>既存項目の追加
 __A
+...aaa
+...bbb
 
-A__ <Vi><INOVTC>
-C__
-CS_
-CSA
-C_A
-_S_
-_SA
-__A
