@@ -30,7 +30,7 @@ TextObjectT TextObjectB
 ComandLineEditingT ComandLineEditingB
 EXCommandT EXCommandB
 
-正規表現で\が必要な文字()+{|?
+字()+{|?
 行の途中から置換Shift-d,"0pまたはShift-c,Ctrl-r,0
 JUMP '' Ctrl-I Ctrl-O
 置換 .,$s/ここを/これに換える/gc
